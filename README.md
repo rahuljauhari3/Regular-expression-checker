@@ -1,7 +1,6 @@
 # Regular-expression-checker
 
 Example 
-2
 (((a)∗)(b))
 ((b)(a))
 abbaababaaabbaa
