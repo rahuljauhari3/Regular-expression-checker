@@ -1,13 +1,22 @@
 # Regular-expression-checker
 
-Example 
+Regex:
+```
 (((a)∗)(b))
 ((b)(a))
+```
+Input:
+```
 abbaababaaabbaa
-content of output.txt: $1$2$1$1$1$2@a#
+```
+Output: 
+```
+$1$2$1$1$1$2@a#
+```
+**Example:**
 
 Content of input.txt:
-
+```
 3
 
 ((((a)(a))+)(b))
@@ -17,11 +26,14 @@ Content of input.txt:
 ((((a)(a))*)(b))
 
 baaaabaabba
+```
+Content of output.txt: 
+```$2$1$3@a#```
 
-Content of output.txt: $2$1$3@a#
+**Example:**
 
 Content of input.txt:
-
+```
 3
 
 ((((b)|((a)(b)))*)|((((b)|((a)(b)))*)(a)))
@@ -31,6 +43,9 @@ Content of input.txt:
 (((b)(((a)(a))*))(b))
 
 baaaabaabbabaa
-
-Content of output.txt: $3$2$1$1#
+```
+Content of output.txt: 
+```
+$3$2$1$1#
+```
 
