@@ -1,4 +1,5 @@
 # Regular-expression-checker
+This code implements a regular expression (RE) matcher using non-deterministic finite automata (NFA) and deterministic finite automata (DFA) concepts. It takes an input file containing a regular expression, a set of strings, and performs pattern matching on the strings based on the regular expression.
 
 Regex:
 ```
